@@ -177,6 +177,18 @@ a:hover{
 .news__h4{
     text-align: center;
 }
+.news__h4{
+   justify-content: space-around;
+
+}
+.news__images{
+    height: 600px;
+    width: 1440px;
+    left: 0px;
+    top: 2773px;
+    border-radius: 0px;
+
+}
    
 
     
