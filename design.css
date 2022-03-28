@@ -154,7 +154,7 @@ a:hover{
     display: inline-block;
     margin-top: 200px;
     justify-content: space-around;
-    margin-left: 150px;
+    margin-left: 180px;
 }
 .news__blog{
     height: 259px;
@@ -166,6 +166,7 @@ a:hover{
     justify-content: space-around;
 }
 .news__header{
+    margin-left: 300px;
     height: 82px;
     width: 600px;
     left: 300px;
@@ -174,21 +175,103 @@ a:hover{
     position: absolute;
 
 }
-.news__h4{
-    text-align: center;
+.news__h2{
+   margin-left: 100px;
+   font-weight: bold;
+   padding: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .news__h4{
    justify-content: space-around;
 
 }
 .news__images{
+    display: flex;
     height: 600px;
-    width: 1440px;
+    width: 1515px;
     left: 0px;
     top: 2773px;
     border-radius: 0px;
+    
+}
+.container__team{
+    
+    display: block;
+    width: 600px;
+    height: 122px;
+    left: 20px;
+    margin: 20px 150px;
 
 }
+
+.p__team{
+    max-width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1__team{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image__team{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 30px;
+ 
+}
+.images__teams{
+    padding: 20px;
+}
+.team__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    background-color:#000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 300px;
+}
+.team__btn:hover{
+    background-color: #1e98bd;
    
+}
+.a__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.header__page{
+    max-width: 600px;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact__img{
+    display: inline-block;
+    margin-top: 30px;
+}
+.container__contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact__text{
+    padding: 10px;
+}
+.contact__images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
     
